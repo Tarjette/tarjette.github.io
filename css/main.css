@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+
+#scroll-snap-container {
+    position: relative;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section,
+header,
+footer {
+    scroll-snap-align: start;
+}

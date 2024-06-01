@@ -22,3 +22,9 @@ header,
 footer {
     scroll-snap-align: start;
 }
+
+.comp-description {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
